@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/fontawesome.min.css" />
     <link rel="stylesheet" href="css/brands.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
 
     <title>News Website</title>
   </head>
@@ -54,46 +54,110 @@
       <div class="row">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav" id="bnavbar">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">الصفحة الأولى</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">الصفحة الثانية</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">الصفحة الثالثة</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">الصفحة الرابعة</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">الصفحة الخامسة</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">الصفحة السادسة</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">الصفحة السابعة</a>
-                </li>
-              </ul>
-            </div>
+            <span class="d-flex">
+              &nbsp; &nbsp;
+              <div class="dropdown me-1">
+                <button
+                  type="button"
+                  class="btn btn-secondary dropdown-toggle"
+                  id="dropdownMenuOffset"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-offset="10,20"
+                >
+                  أخبار
+                </button>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                  <li><a class="dropdown-item" href="#">صحة</a></li>
+                  <li><a class="dropdown-item" href="#"> رياضة</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"> سياسة</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> اقتصاد</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-secondary">
+                أخبار كاذبة
+              </button>
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+              <div class="dropdown me-1">
+                <button
+                  type="button"
+                  class="btn btn-secondary dropdown-toggle"
+                  id="dropdownMenuOffset"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-offset="10,20"
+                >
+                  مواد رأي
+                </button>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                  <li><a class="dropdown-item" href="#">افتتاحية</a></li>
+                  <li><a class="dropdown-item" href="#"> زوايا و أعمدة</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"> تحليل</a>
+                  </li>
+                </ul>
+              </div>
+
+              <button type="button" class="btn btn-secondary">تحقيقات</button
+              >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+              <div class="dropdown me-1">
+                <button
+                  type="button"
+                  class="btn btn-secondary dropdown-toggle"
+                  id="dropdownMenuOffset"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-offset="10,20"
+                >
+                  وسائط متعددة</button
+                >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                  <li><a class="dropdown-item" href="#">info graph</a></li>
+                  <li><a class="dropdown-item" href="#"> video graph</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">خبر بصورة </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="dropdown me-1">
+                <button
+                  type="button"
+                  class="btn btn-secondary dropdown-toggle"
+                  id="dropdownMenuOffset"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-offset="10,20"
+                >
+                  من نحن</button
+                >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                  <li><a class="dropdown-item" href="#">عن الموقع</a></li>
+                  <li><a class="dropdown-item" href="#"> سياسة الموقع</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">أهداف الموقع</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">كادر العمل</a>
+                  </li>
+                </ul>
+              </div>
+
+              <button type="button" class="btn btn-secondary">اتصل بنا</button
+              >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            </span>
           </div>
         </nav>
       </div>
@@ -136,13 +200,10 @@
               class="card text-dark bg-light mb-3 mt-5"
               style="max-width: 36rem"
             >
-              <div class="card-header">Header</div>
+              <div class="card-header"></div>
               <div class="card-body">
-                <h5 class="card-title">Light card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+                <h5 class="card-title">الحدث الأن</h5>
+                <p class="card-text">آخر الأخبار من سوريا وحول العالم</p>
               </div>
             </div>
           </div>
@@ -232,12 +293,14 @@
                 class="card text-dark bg-light mb-3"
                 style="max-width: 18rem"
               >
-                <div class="card-header">Header</div>
+                <div class="card-header">
+                  <a href="pages/editorial.html">افتتاحية :</a>
+                </div>
                 <div class="card-body">
-                  <h5 class="card-title">Light card title</h5>
+                  <h5 class="card-title">بوش.. ودموع التماسيح</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    أنا حزين، أنا متألم، إنه أمر يفطر القلب، قرار الإدارة
+                    الأمريكية الحالية برئاسة جو بايدن بالانسحاب من أفغانستان...
                   </p>
                 </div>
               </div>
@@ -247,12 +310,14 @@
                 class="card text-dark bg-light mb-3"
                 style="max-width: 18rem"
               >
-                <div class="card-header">Header</div>
+                <div class="card-header">
+                  <a href="pages/columns_and_angles.html">أعمدة وزوايا :</a>
+                </div>
                 <div class="card-body">
-                  <h5 class="card-title">Light card title</h5>
+                  <h5 class="card-title">الأوكسجين تحبسه بيوت الأجار .</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    شهيقٌ قصير زفيرٌ مطول يصل الى أن يستطيع أبو احمد أخذ نفس
+                    يصبره على ماهو عليه ..
                   </p>
                 </div>
               </div>
@@ -262,12 +327,17 @@
                 class="card text-dark bg-light mb-3"
                 style="max-width: 18rem"
               >
-                <div class="card-header">Header</div>
+                <div class="card-header">
+                  <a href="pages/policy.html">سياسة :</a>
+                </div>
                 <div class="card-body">
-                  <h5 class="card-title">Light card title</h5>
+                  <h5 class="card-title">
+                    شمخاني: سنختار الرد المناسب على التهديدات الأميركية
+                    والإسرائيلية
+                  </h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    أكد أمين المجلس الأعلى للأمن القومي الإيراني علي شمخاني أن
+                    التصريحات التي أدلى بها الرئيس الأميركي ...
                   </p>
                 </div>
               </div>
@@ -277,12 +347,17 @@
                 class="card text-dark bg-light mb-3"
                 style="max-width: 18rem"
               >
-                <div class="card-header">Header</div>
+                <div class="card-header">
+                  <a href="pages/economy.html">اقتصاد : </a>
+                </div>
                 <div class="card-body">
-                  <h5 class="card-title">Light card title</h5>
+                  <h5 class="card-title">
+                    إقبال متزايد على معرض «صنع في سورية» في بغداد
+                  </h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    يشهد معرض صنع في سورية للبيع المباشر في العاصمة العراقية
+                    بغداد إقبالاً شعبياً متزايداً واهتماماً لافتاً من التجار
+                    والزوار...
                   </p>
                 </div>
               </div>
@@ -292,12 +367,16 @@
                 class="card text-dark bg-light mb-3"
                 style="max-width: 18rem"
               >
-                <div class="card-header">Header</div>
+                <div class="card-header">
+                  <a href="pages/health.html">صحة:</a>
+                </div>
                 <div class="card-body">
-                  <h5 class="card-title">Light card title</h5>
+                  <h5 class="card-title">
+                    إيران تسجل 614 وفاة وأكثر من 26 ألف إصابة جديدة بكورونا
+                  </h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    سجلت وزارة الصحة الإيرانية 614 وفاة و26034 إصابة بفيروس
+                    كورونا خلال الساعات الأربع والعشرين الماضية...
                   </p>
                 </div>
               </div>
@@ -307,12 +386,16 @@
                 class="card text-dark bg-light mb-3"
                 style="max-width: 18rem"
               >
-                <div class="card-header">Header</div>
+                <div class="card-header">
+                  <a href="pages/sport.html">رياضة:</a>
+                </div>
                 <div class="card-body">
-                  <h5 class="card-title">Light card title</h5>
+                  <h5 class="card-title">
+                    فاطمة الحسن سادساً في بارالمبيك طوكيو
+                  </h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    أنهت لاعبتنا فاطمة الحسن منافساتها في القوة البدنية لوزن ٦١
+                    كغ في دورة الألعاب البارالمبية بطوكيو ...
                   </p>
                 </div>
               </div>
@@ -322,12 +405,17 @@
                 class="card text-dark bg-light mb-3"
                 style="max-width: 18rem"
               >
-                <div class="card-header">Header</div>
+                <div class="card-header">
+                  <a href="pages/investigation.html">تحقيقات:</a>
+                </div>
                 <div class="card-body">
-                  <h5 class="card-title">Light card title</h5>
+                  <h5 class="card-title">
+                    الغلاء غول يفترس أحلام البسطاء ....والمقاصف الشعبية هي منطقة
+                    الجذب السياحي في صافيتا والرقابة غائبة !!
+                  </h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    مقومات سياحية عديدة تتمتع بها منطقة صافيتا جعلت منها
+                    منطقة...
                   </p>
                 </div>
               </div>
@@ -337,12 +425,17 @@
                 class="card text-dark bg-light mb-3"
                 style="max-width: 18rem"
               >
-                <div class="card-header">Header</div>
+                <div class="card-header">
+                  <a href="pages/fake_news.html">أخبار كاذبة:</a>
+                </div>
                 <div class="card-body">
-                  <h5 class="card-title">Light card title</h5>
+                  <h5 class="card-title">
+                    السفارة السورية : لا صحة لما يتم تداوله حول اختفاء أشخاص
+                    دخلوا إليها
+                  </h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    نفت السفارة السورية في بيروت المزاعم العارية عن الصحة التي
+                    تداولتها بعض...
                   </p>
                 </div>
               </div>
@@ -353,13 +446,11 @@
           <div class="card text-dark bg-light mb-3" style="max-width: 18rem">
             <div class="card-header">إعلان</div>
             <div class="card-body">
-              <h5 class="card-title">عنوان الاعلان</h5>
+              <h5 class="card-title">
+                بدء توزيع الدفعة الأولى من مازوت التدفئة بمعدل 50 ليتراً فقط ...
+              </h5>
               <p class="card-text">
-                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
-                هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
-                العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
-                التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
-                العربى
+                <img id="fuel" src="images/fuel.jpg" alt="fuel" />
               </p>
             </div>
           </div>
@@ -374,8 +465,8 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">مساحتك الخاصة</h5>
-              <p class="card-text">ساهم بكتابة المقالات العلمية</p>
-              <a href="#" class="btn btn-primary">حرر معنا</a>
+              <p class="card-text">هل لديك نصيحة اخبارية</p>
+              <a href="#" class="btn btn-primary">ساهم معنا</a>
             </div>
           </div>
         </div>
@@ -443,6 +534,7 @@
     </div>
 
     <!-- end container -->
+    <script src="js/bootstrap.bundle.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
